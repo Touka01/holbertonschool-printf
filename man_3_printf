@@ -1,11 +1,12 @@
 NAME
 	_printf
 
-SYNOPSIS
+		SYNOPSIS
 
-       #include <stdio.h>
+#include <stdio.h>
 
-       int printf(const char *format, ...);
+	int
+	printf(const char *format, ...);
 
 DESCRIPTION
 
@@ -13,7 +14,7 @@ Print argument(s) according to FORMAT, or execute according to OPTION:
 
 	We use the function _printf() with % followed by the type of format specifier, to show the value of the variable.
 	Format specifier is used during input and output. It is a way to tell the compiler what type of data is in a variable during taking input using _printf()
-	
+
 CONVERSION SPECIFIERS:
 
 	%i - substitude for a value an integer variable,
@@ -31,4 +32,5 @@ RETURN VALUE
 Upon successful return, This function return the number of characters written, excluding the terminating null character used to end the string.
 
 AUTHOR
+
 	Mouayed sabbagh
