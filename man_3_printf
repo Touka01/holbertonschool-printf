@@ -31,6 +31,7 @@ RETURN VALUE
 
 Upon successful return, This function return the number of characters written, excluding the terminating null character used to end the string.
 
-AUTHOR
+AUTHORS
 
 	Mouayed sabbagh
+	Ahmed toukebri
